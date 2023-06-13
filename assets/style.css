@@ -37,7 +37,7 @@ nav a {
   nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 170px;
+    min-width: 240px;
   }
 
   .card {
@@ -74,4 +74,8 @@ nav a {
   .card:hover,
   .card:hover .card header {
     box-shadow: inset 0px 0px 8px rgb(80, 70, 80), 0 0 15px rgb(54, 51, 54);
+  }
+  footer  {
+    text-align: center;
+    padding:2% ;
   }
